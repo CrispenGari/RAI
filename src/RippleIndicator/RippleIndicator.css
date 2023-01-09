@@ -1,0 +1,15 @@
+.ripple__indicator {
+  animation: scale 1s ease 0s infinite;
+  border-radius: 50%;
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0.2);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
